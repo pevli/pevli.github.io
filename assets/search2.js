@@ -205,11 +205,11 @@ function run_search_num(listnum) {
         sanalista = get_oikeudet(datax.oikeudet_sanahaku, 0);
         //chatlista = get_oikeudet(datax.oikeudet_chatgpt, 0);
         sanalista_match = sanalista.match(oikeusfilter);
-        chatlista_match = false; //chatlista.match(oikeusfilter);
+        //chatlista_match = false; //chatlista.match(oikeusfilter);
 
         if ((datax.text.match(s_words) || datax.title.match(s_words))
           && ((!use_yearfilter) || datax.year.match(yearfilter))
-          && ((!use_oikeusfilter) || sanalista_match || chatlista_match)) {
+          && ((!use_oikeusfilter) || sanalista_match)) { //  || chatlista_match
           // MATCH!
           ots = datax.title
           doc = datax.document
