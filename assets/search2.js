@@ -57,7 +57,8 @@ function toggle_perusoikeus_num(flt, num) {
 }
 
 function get_luokittelu(datax) {
-  return 'Sanahaku: ' + get_oikeudet(datax.oikeudet_sanahaku) + '<br>Chatgpt: ' + get_oikeudetget_oikeudet(datax.oikeudet_chatgpt)
+  //return 'Sanahaku: ' + get_oikeudet(datax.oikeudet_sanahaku) + '<br>Chatgpt: ' + get_oikeudetget_oikeudet(datax.oikeudet_chatgpt)
+  return 'Perusoikeudet: ' + get_oikeudet(datax.oikeudet_sanahaku) + '<br>';
 }
 
 function get_filter_or() {
