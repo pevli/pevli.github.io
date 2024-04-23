@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-23T08:18:29+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Perustuslakivaliokunnan lausunnot</title><subtitle>Hae luokitelluista perustuslakivaliokunnan lausunnoista avainsanoilla tai vapaatekstillä.</subtitle><entry><title type="html">Perustuslakivaliokunnan lausuntohaku</title><link href="http://localhost:4000/jekyll/update/2024/04/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Perustuslakivaliokunnan lausuntohaku" /><published>2024-04-15T09:39:13+03:00</published><updated>2024-04-15T09:39:13+03:00</updated><id>http://localhost:4000/jekyll/update/2024/04/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/04/15/welcome-to-jekyll.html"><![CDATA[<div id="lkm" class="lkm">
+</div>
+
+<div id="otsikko" class="sisalto"></div>
+<div id="tagit" class="sisalto"></div>
+<div id="sisalto" class="sisalto"></div>
+
+<div id="tuloslista" class="tuloslista"></div>
+
+<p>Lausunnot on luokitelty sanahaulla JA OpenAI GPT-4:llä. Luokat ovat:</p>
+<ul>
+<li>Elinkeinovapaus</li>
+<li>Elinkeinovapaus</li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[]]></summary></entry></feed>
