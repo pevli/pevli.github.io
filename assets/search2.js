@@ -203,9 +203,9 @@ function run_search_num(listnum) {
       // run through the search with filters
       $.each(data, function (key, datax) {
         sanalista = get_oikeudet(datax.oikeudet_sanahaku, 0);
-        chatlista = get_oikeudet(datax.oikeudet_chatgpt, 0);
+        //chatlista = get_oikeudet(datax.oikeudet_chatgpt, 0);
         sanalista_match = sanalista.match(oikeusfilter);
-        chatlista_match = chatlista.match(oikeusfilter);
+        chatlista_match = False; //chatlista.match(oikeusfilter);
 
         if ((datax.text.match(s_words) || datax.title.match(s_words))
           && ((!use_yearfilter) || datax.year.match(yearfilter))

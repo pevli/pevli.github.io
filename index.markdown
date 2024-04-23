@@ -23,7 +23,6 @@ layout: home
 <div id="tagfilters" class='tagfilter'>
 <a class='normal' href="javascript:clear_tagfilters()">clear</a><br>
 <a id="yhdenvertaisuus_ja_syrjinnän_kielto" class="nostrike" href="javascript:toggle_perusoikeus('yhdenvertaisuus_ja_syrjinnän_kielto')">yhdenvertaisuus ja syrjinnän kielto</a><br>
-<a id="yhdenvertaisuus_ja_syrjinnän_kielto-4" class="nostrike" href="javascript:toggle_perusoikeus('yhdenvertaisuus_ja_syrjinnän_kielto-4')">yhdenvertaisuus ja syrjinnän kielto-4</a><br>
 <a id="sukupuolten_tasa-arvo" class="nostrike" href="javascript:toggle_perusoikeus('sukupuolten_tasa-arvo')">sukupuolten tasa-arvo</a><br>
 <a id="sananvapaus" class="nostrike" href="javascript:toggle_perusoikeus('sananvapaus')">sananvapaus</a><br>
 <a id="kokoontumisvapaus" class="nostrike" href="javascript:toggle_perusoikeus('kokoontumisvapaus')">kokoontumisvapaus</a><br>
@@ -41,7 +40,6 @@ layout: home
 <a id="uskonnon_ja_omantunnon_vapaus" class="nostrike" href="javascript:toggle_perusoikeus('uskonnon_ja_omantunnon_vapaus')">uskonnon ja omantunnon vapaus</a><br>
 <a id="omaisuuden_suoja" class="nostrike" href="javascript:toggle_perusoikeus('omaisuuden_suoja')">omaisuuden suoja</a><br>
 <a id="elinkeinovapaus" class="nostrike" href="javascript:toggle_perusoikeus('elinkeinovapaus')">elinkeinovapaus</a><br>
-<a id="elinkeinovapaus-4" class="nostrike" href="javascript:toggle_perusoikeus('elinkeinovapaus-4')">elinkeinovapaus-4</a><br>
 <a id="työvoiman_suojelu" class="nostrike" href="javascript:toggle_perusoikeus('työvoiman_suojelu')">työvoiman suojelu</a><br>
 <a id="oikeus_maksuttomaan_perusopetukseen" class="nostrike" href="javascript:toggle_perusoikeus('oikeus_maksuttomaan_perusopetukseen')">oikeus maksuttomaan perusopetukseen</a><br>
 <a id="tieteen_taiteen_ja_ylimmän_opetuksen_vapaus" class="nostrike" href="javascript:toggle_perusoikeus('tieteen_taiteen_ja_ylimmän_opetuksen_vapaus')">tieteen, taiteen ja ylimmän opetuksen vapaus</a><br>
