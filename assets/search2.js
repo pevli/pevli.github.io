@@ -223,7 +223,7 @@ function run_search_num(listnum) {
             sis = datax.text.replace(s_words, "<span class = 'highlight'>" + s_words + "</span>");
             $('#otsikko').html("<h2>" + doc2 + "<a href='" + datax.href_eduskunta + "' class = 'otsikko'>" + ots + "</a></h2>");
             $('#sisalto').html('<span style="white-space: pre-line">' + sis + '<span>');
-            luokittelut = 'Sanahaku: ' + get_oikeudet(datax.oikeudet_sanahaku, 0) + '<br>'; //Chatgpt: ' + get_oikeudet(datax.oikeudet_chatgpt, 0)
+            luokittelut = 'Perusoikeudet: ' + get_oikeudet(datax.oikeudet_sanahaku, 0) + '<br>'; //Chatgpt: ' + get_oikeudet(datax.oikeudet_chatgpt, 0)
             $('#tagit').html(luokittelut);
             $('#tuloslista').append('<div onclick="javascript:run_search_num(' + num + ')">' + (num + 1) + '. <a href="javascript:run_search_num(' + num + ')"><b>' + doc2 + ' ' + ots + '</b></a></div><br>');
           } else {
