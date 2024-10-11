@@ -4,7 +4,7 @@ title: Noni, missäs nyt sitten oikein ollaan?
 permalink: /about/
 ---
 
-Hakukone [Perustuslakivaliokunnan](https://www.eduskunta.fi/pevl) lausunnoille. Lausunnot ovat peräisin sieltä. Tässä on toteutettu esimerkki hakukoneesta, jolla
+Hakukone [Perustuslakivaliokunnan](https://www.eduskunta.fi/FI/valiokunnat/perustuslakivaliokunta/Sivut/default.aspx) lausunnoille. Lausunnot ovat peräisin sieltä. Tässä on toteutettu esimerkki hakukoneesta, jolla
 voi etsiä lausuntoa hakusanoilla ja suodattaa tuloksia vuoden tai perusoikeuden mukaan. Lausunnot on luokitelty sanahaun perusteella.
 Perusoikeudet viittaavat luokitteluihin.
 
