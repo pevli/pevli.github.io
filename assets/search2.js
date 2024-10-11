@@ -37,7 +37,7 @@ function bold_year(i) {
 
 function add_years() {
   if ($('#vuodet').text().length < 10) {
-    for (let i = 1980; i <= 2024; i++) {
+    for (let i = 1980; i <= new Date().getFullYear(); i++) {
       $('#vuodet').append('<a class="nostrike" id="year' + i + '" href="javascript:bold_year(' + i + ');">' + i + '</a> ');
     }
   }
