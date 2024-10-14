@@ -196,7 +196,7 @@ function run_search_num(listnum) {
 
       if (true) {
         data = data.sort(function (a, b) {
-          if (a.year > b.year) return -1; return 1;
+          if (a.date > b.date) return -1; return 1;
         });
       }
 
